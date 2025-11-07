@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/icons/ubuntu_favicon.png" type="image/x-icon">
+  <title>Ubuntu</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="./" class="logo">
+      <div class="logo__icon">
+        <img src="./assets/icons/CoF_white.svg" alt="Ubuntu Icon" class="logo__svg" loading="lazy">
+      </div>
+      <span class="logo__title">Canonical Ubuntu</span>
+    </a>
+    <div class="header__right">
+      <nav class="nav-menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__item">
+            <a href="./" class="nav-menu__link">Home</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="./community" class="nav-menu__link">Community</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="./freedom" class="nav-menu__link">Freedom</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="./enterprise" class="nav-menu__link">Enterprise</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="download-button" class="download-button button" type="button">Download ⤓</button>
+    </div>
+  </header>
+  <main class="content">
+    <h1 class="visually-hidden">Canonical Ubuntu</h1>
+    <section class="banner">
+      <h2 class="visually-hidden">Advertising slogan</h2>
+      <div class="banner__info">
+        <img src="./assets/icons/arrow.svg" alt="Arrow Icon" class="banner__icon" loading="lazy">
+        <div class="banner__text">Unleash<span class="break"></span>the power of Linux</div>
+      </div>
+      <h3 class="banner__title">Ubuntu</h3>
+    </section>
+    <section class="advantages">
+      <h2 class="visually-hidden">Advantages</h2>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <div class="feature-card container">
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">
+                Strength<span class="break"></span>through community
+              </h3>
+              <div class="feature-card__description">
+                <p>Power grows when we stand as one.<span class="break"></span>Shared purpose builds lasting
+                  strength.</p>
+              </div>
+              <button id="community-button" class="button vm-button">View more</button>
+            </div>
+            <img src="./assets/images/community.jpg" alt="Community" class="feature-card__image" width="491" height="684"
+              loading="lazy">
+          </div>
+        </li>
+        <li class="advantages__item">
+          <div class="feature-card container">
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">
+                Empowering<span class="break"></span>digital freedom
+              </h3>
+              <div class="feature-card__description">
+                <p>Open connections, shared progress,<span class="break"></span>and the
+                  strength to choose your
+                  own path.</p>
+              </div>
+              <button id="freedom-button" class="button vm-button">
+                View more
+              </button>
+            </div>
+            <img src="./assets/images/freedom.jpg" alt="Community" class="feature-card__image" width="491" height="684"
+              loading="lazy">
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="start-now">
+      <h2 class="visually-hidden">Start now</h2>
+      <div class="start-now__body">
+        <div class="start-now__video-wrapper">
+          <video src="./assets/videos/Ubuntu-teaser.mp4" class="start-now__video" preload="none" width="976" height="549"
+            playsinline poster="./assets/images/poster.jpg">Sorry, your browser doesn't support
+            this video.</video>
+          <button class="start-now__video-play-button" type="button">
+          </button>
+        </div>
+        <h3 class="start-now__title">
+          <a href="https://ubuntu.com/download" class="start-now__link" target="_blank">Start now</a>
+        </h3>
+      </div>
+    </section>
+    <section class="advantages">
+      <h2 class="visually-hidden">Additional advantages</h2>
+      <ul class="advantages__list">
+        <li id="enterprise-item" class="advantages__item">
+          <div class="feature-card container">
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">
+                Enterprise solutions
+              </h3>
+              <div class="feature-card__description">
+                <p>Innovating together for greater impact.<span class="break"></span>United vision drives sustainable
+                  growth.</p>
+              </div>
+              <button id="enterprise-button" class="button vm-button">View more</button>
+            </div>
+            <img src="./assets/images/enterprise.jpg" alt="Enterprise" class="feature-card__image" width="491"
+              height="684" loading="lazy">
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__main-inner container">
+        <div class="footer__column">
+          <h2 class="footer__column-title">Our office</h2>
+          <address class="footer__address">5th floor<span class="break"></span>3 More London Riverside<span
+              class="break"></span>London<span class="break"></span>SE1 2AQ United Kingdom</address>
+          <p class="footer__phone">Phone number:<span class="break"></span>
+            <a href="tel:+442080442036">+44 20 8044 2036</a>
+          </p>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__column-title">Press</h2>
+          <p class="footer__press">Please contact <a href="mailto:pr@canonical.com"
+              class="email-address">pr@canonical.com</a>.
+          </p>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__column-title">Legal notices</h2>
+          <p class="footer__legal-notices">Please note that we cannot<span class="break"></span>provide you with legal
+            advice.<span class="break"></span>Legal
+            notices should
+            be sent<span class="break"></span>to <a href="mailto:legal@canonical.com"
+              class="email-address">legal@canonical.com</a>.<span class="break"></span>Questions
+            about hiring, products<span class="break"></span>or
+            sales should not be sent<span class="break"></span>to this address.
+          </p>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__column-title has-arrow">Follow us</h2>
+          <div class="footer__soc1als">
+            <ul class="footer__soc1als-list">
+              <li class="footer__soc1als-item">
+                <a href="https://www.youtube.com/user/celebrateubuntu" class="footer__soc1als-link" target="_blank">
+                  <img src="./assets/icons/youtube.svg" alt="YouTube" class="footer__soc1als-icon" loading="lazy">
+                </a>
+              </li>
+              <li class="footer__soc1als-item">
+                <a href="https://x.com/Canonical" class="footer__soc1als-link" target="_blank">
+                  <img src="./assets/icons/x.svg" alt="YouTube" class="footer__soc1als-icon" loading="lazy">
+                </a>
+              </li>
+              <li class="footer__soc1als-item">
+                <a href="https://www.instagram.com/ubuntu_os/" class="footer__soc1als-link" target="_blank">
+                  <img src="./assets/icons/instagram.svg" alt="YouTube" class="footer__soc1als-icon" loading="lazy">
+                </a>
+              </li>
+              <li class="footer__soc1als-item">
+                <a href="https://www.tiktok.com/@canonical_ubuntu" class="footer__soc1als-link" target="_blank">
+                  <img src="./assets/icons/tiktok.svg" alt="YouTube" class="footer__soc1als-icon" loading="lazy">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__extra">
+      <div class="footer__extra-inner container">
+        <small class="footer__copyright">© <time datetime="2025">2025</time> Canonical Ltd. Ubuntu and Canonical are
+          registered trademarks of Canonical Ltd.</small>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/video.js" defer></script>
+  <script src="./js/buttons.js" defer></script>
+</body>
+
+</html>
